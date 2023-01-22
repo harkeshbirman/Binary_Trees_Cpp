@@ -6,7 +6,7 @@
 
 void inOrder(treenode *root) {
     if(root == NULL) {
-		return;
+	return;
     }
     inOrder(root->left);
     cout << root->val << " ";
